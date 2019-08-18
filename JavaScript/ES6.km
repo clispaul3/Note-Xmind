@@ -61,7 +61,16 @@
                     "text": "Promise",
                     "priority": 3
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwcqo9jghyo0",
+                            "created": 1566129782192,
+                            "text": "静态方法"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
@@ -78,7 +87,7 @@
                     "id": "bw6tvqfsqsg0",
                     "created": 1565529471114,
                     "text": "函数API",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "priority": 4
                 },
                 "children": [
