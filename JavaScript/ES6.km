@@ -69,7 +69,7 @@
                     "id": "bw6tvqfsqsg0",
                     "created": 1565529471114,
                     "text": "函数API",
-                    "expandState": "collapse",
+                    "expandState": "expand",
                     "priority": 4
                 },
                 "children": [
@@ -77,7 +77,8 @@
                         "data": {
                             "id": "bw6tuwdkmrs0",
                             "created": 1565529405676,
-                            "text": "数组函数"
+                            "text": "数组函数",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -127,7 +128,8 @@
                         "data": {
                             "id": "bw6tvfm605c0",
                             "created": 1565529447555,
-                            "text": "对象函数"
+                            "text": "对象函数",
+                            "note": "# 对象函数\n\n  - Object.keys  将所有非原型对象的属性放到一个数组中\n  \n  - obj.hasOwnProperty  检测obj是否有某个属性(不包括原型对象的属性)\n  \n## Object.assign  \n>深拷贝对象/修改对象\n  \n```js\nconst obj = {username:\"java\"}\n// 修改obj对象\nObject.assign(obj,{age:18})\n// 深拷贝obj对象\nObject.assign({},obj,{age:18})\n```"
                         },
                         "children": []
                     },
@@ -173,7 +175,7 @@
                     "id": "bwcrzixsm4o0",
                     "created": 1566133485765,
                     "text": "异步操作",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "priority": 3
                 },
                 "children": [
