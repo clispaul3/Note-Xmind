@@ -1,0 +1,77 @@
+{
+    "root": {
+        "data": {
+            "id": "bw9c9g2imi80",
+            "created": 1565784445534,
+            "text": "Linux"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bw9c9oxehg80",
+                    "created": 1565784464815,
+                    "text": "基础知识",
+                    "priority": 1
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bw9c9xnzhiw0",
+                    "created": 1565784483837,
+                    "text": "系统管理",
+                    "priority": 2
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bw9ca3l8hg80",
+                    "created": 1565784496731,
+                    "text": "Shell",
+                    "priority": 3
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bw9cab4qlyg0",
+                    "created": 1565784513148,
+                    "text": "服务管理",
+                    "priority": 4
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bw9cags2me80",
+                    "created": 1565784525443,
+                    "text": "数据库管理",
+                    "priority": 5
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bw9camfev540",
+                    "created": 1565784537738,
+                    "text": "集群",
+                    "priority": 6
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bw9caouzmdk0",
+                    "created": 1565784543034,
+                    "text": "虚拟化",
+                    "priority": 7
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

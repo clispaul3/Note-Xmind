@@ -1,0 +1,185 @@
+{
+    "root": {
+        "data": {
+            "id": "bw6s7o61kvs0",
+            "created": 1565524764321,
+            "text": "ES6"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bw6scc7mtfs0",
+                    "created": 1565525130117,
+                    "text": "变量声明",
+                    "priority": 1,
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bw6scl4g0pk0",
+                            "created": 1565525149515,
+                            "text": "var",
+                            "note": "## var\n\n  - 可以重复定义\n  - 无法限制修改\n  - 没有块级作用域\n  - 有声明提前"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw6scnnz57c0",
+                            "created": 1565525155051,
+                            "text": "let",
+                            "note": "## let\n\n  - 不能重复定义\n  - 有块级作用域\n  - 不会声明提前"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw6scpwp4s00",
+                            "created": 1565525159931,
+                            "text": "const",
+                            "note": "## cosnt\n\n  - 定义常量\n  - 不能修改\n  - 有块级作用域"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bw6ssu5sq6o0",
+                    "created": 1565526423015,
+                    "text": "解构赋值",
+                    "note": "## 解构赋值\n\n### 数组解构\n  - 数组可以跳空元素\n  \n```js\nlet [a,b,c] = [1,2,3,4]\nlet [a,b,...c] = [1,2,3]\nlet [a,,b,c] = [1,2,3]\nlet arr = [1,2,3]\nlet longArr = [4,5,6]\nlongArr.push(...arr)\n```\n### 对象解构\n  - 对象不能跳空属性\n  - 对象属性支持别名\n  \n```js\nlet {username} = {username:\"js\",age:18}\n\nlet {...user} = {username:\"js\",age:18}\n\nlet {username,...user} = {username:\"js\",age:18}\n\nlet {username:uname} = {username:\"js\",age:18}\n```",
+                    "priority": 2
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bw6tugjc9y00",
+                    "created": 1565529371197,
+                    "text": "Promise",
+                    "priority": 3
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bw6tv4tc2t40",
+                    "created": 1565529424044,
+                    "text": "遍历",
+                    "priority": 5,
+                    "note": "## 遍历\n\n### 遍历数组\n\n### 遍历对象"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "bw6tvqfsqsg0",
+                    "created": 1565529471114,
+                    "text": "函数API",
+                    "expandState": "expand",
+                    "priority": 4
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bw6tuwdkmrs0",
+                            "created": 1565529405676,
+                            "text": "数组函数"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bw6umh74udk0",
+                                    "created": 1565531566833,
+                                    "text": "map",
+                                    "note": "## map\n>通过一个数组去生成一个长度相同的新数组\n\n  - 返回和原数组长度相同的数组\n  - 新数组的元素取决于遍历过程中返回的值\n  - 修改item不会改变原数组\n  - 不能使用break强行终止遍历"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bw6umnif8400",
+                                    "created": 1565531580575,
+                                    "text": "filter"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bw6umq0dma80",
+                                    "created": 1565531586015,
+                                    "text": "reduce"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bw6umt26zs80",
+                                    "created": 1565531592655,
+                                    "text": "forEach"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bw6tv1aufg00",
+                            "created": 1565529416395,
+                            "text": "字符串函数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw6tvfm605c0",
+                            "created": 1565529447555,
+                            "text": "对象函数"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw6tw7a4wtc0",
+                            "created": 1565529507777,
+                            "text": "箭头函数",
+                            "note": "## 箭头函数\n\n  - this指向\n  \n  - 返回值简写\n    - 函数体有且仅有一条return语句，花括号和return都可以省略\n    \n  - 参数简写\n    - 有且仅有一个参数，圆括号可以省略"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw6twdd37lk0",
+                            "created": 1565529521017,
+                            "text": "参数默认值"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bw6u3wo7rvc0",
+                            "created": 1565530111597,
+                            "text": "参数展开",
+                            "note": "## 参数展开\n>剩余参数\n\n  - 将所有参数放在一个数组中\n  - 将剩下的所有参数放在一个数组中"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bw6uferyevs0",
+                    "created": 1565531013011,
+                    "text": "面向对象",
+                    "priority": 6
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

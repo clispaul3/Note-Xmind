@@ -1,0 +1,180 @@
+{
+    "root": {
+        "data": {
+            "id": "bwcer6ck5zk0",
+            "created": 1566096157019,
+            "text": "Redux",
+            "hyperlink": "https://www.redux.org.cn/",
+            "hyperlinkTitle": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bwces8eyf800",
+                    "created": 1566096239880,
+                    "text": "动机",
+                    "note": "## 动机\n>可预测的状态(state)管理容器",
+                    "expandState": "expand",
+                    "priority": 1
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwceu036cag0",
+                            "created": 1566096378482,
+                            "text": "状态共享",
+                            "note": "## 状态共享\n\n  - 多个组件可以共享同一份数据",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwcf2byn2nk0",
+                                    "created": 1566097031243,
+                                    "text": "从state中取数据"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwcf330na740",
+                                    "created": 1566097090137,
+                                    "text": "修改state"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwceu5tksa80",
+                            "created": 1566096390962,
+                            "text": "可预测",
+                            "note": "## 可预测\n\n  共享状态的组件可以知道状态是如何被改变的\n  \n### 设计模式\n  - 发布订阅模式",
+                            "priority": 2
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwcfv94wtu00",
+                    "created": 1566099297652,
+                    "text": "state",
+                    "priority": 2
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwcfvqahdoo0",
+                            "created": 1566099334994,
+                            "text": "不能直接被修改",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwcfwjkhqc80",
+                                    "created": 1566099398726,
+                                    "text": "提供setState方法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwcfxyj9h7k0",
+                            "created": 1566099509668,
+                            "text": "不能直接获取"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwcfyddlyq00",
+                                    "created": 1566099541978,
+                                    "text": "提供getState方法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwcg8hf7d000",
+                    "created": 1566100334423,
+                    "text": "action",
+                    "priority": 3
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwcg93z8r7k0",
+                            "created": 1566100383524,
+                            "text": "描述如何修改state的对象"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwcgacv6l9s0",
+                            "created": 1566100481234,
+                            "text": "完善了对state的修改"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwcgbz772hs0",
+                    "created": 1566100608213,
+                    "text": "reducer",
+                    "priority": 4
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwcgcu6mhhc0",
+                            "created": 1566100675659,
+                            "text": "定义了修改state的具体逻辑"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwchlefshyw0",
+                            "created": 1566104167772,
+                            "text": "一个reducer对应state中的一个字段"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwcn21jakq80",
+                    "created": 1566119577426,
+                    "text": "subscribe",
+                    "priority": 5
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwcn2hqu25c0",
+                            "created": 1566119612711,
+                            "text": "个性化订阅"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

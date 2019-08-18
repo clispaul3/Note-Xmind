@@ -1,0 +1,68 @@
+{
+    "root": {
+        "data": {
+            "id": "bw9cfc8ow680",
+            "created": 1565784907385,
+            "text": "基础知识"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bw9cgt3dveg0",
+                    "created": 1565785022433,
+                    "text": "vim",
+                    "note": "## vim\n>vi文本编辑器，vim是vi的增强版\n\n"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bw9cl99z7ds0",
+                            "created": 1565785371117,
+                            "text": "模式"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bw9cld1yuhk0",
+                                    "created": 1565785379340,
+                                    "text": "正常模式",
+                                    "note": "## 正常模式\n>vim index.js 进入正常模式\n\n## 快捷键\n\n#### 移动光标\n  - shift+方向键  翻页\n  \n  - w/W 跳至下一个单词的开始位置\n  \n  - e/E 跳至下一个单词的结束位置\n  \n  - b/B 跳至上一个单词\n  \n  - shift + ^ 跳至一行的开始位置\n  \n  - shift + $ 跳至一行的结束位置\n  \n  - gg  跳至文首\n  \n  - G  跳至文尾\n  \n### 删除复制粘贴\n  - dd  删除光标所在行\n  \n  - dw  删除一个单词\n \n  - shift + D  删除光标所在位置至行尾\n  \n  - x  删除一个字母\n  \n  - yy 复制一行\n  \n  - yw 复制一个单词\n  \n  - p  黏贴到当前行的上面\n  \n  - P  黏贴到当前行的下面\n  \n### 查找\n  - /* 匹配单词"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bw9clguwkkw0",
+                                    "created": 1565785387620,
+                                    "text": "编辑模式",
+                                    "note": "## 编辑模式\n\n### 命令跳转 \n  - sh 跳至bash命令模式，exit切回vim正常模式\n  \n  "
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bw9clyrzk8w0",
+                                    "created": 1565785426626,
+                                    "text": "命名行模式",
+                                    "note": "## 命令行模式\n\n  - wq  保存并退出\n  - q   退出不保存\n  - q!  强制退出\n  - w   保存"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bw9d5afgzq00",
+                    "created": 1565786940909,
+                    "text": "文件系统"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
