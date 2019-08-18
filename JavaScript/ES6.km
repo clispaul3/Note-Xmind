@@ -59,7 +59,8 @@
                     "id": "bw6tugjc9y00",
                     "created": 1565529371197,
                     "text": "Promise",
-                    "priority": 3
+                    "priority": 3,
+                    "note": "# Promise\n  - 执行异步操作\n  - 解决回调地狱"
                 },
                 "children": [
                     {
@@ -67,6 +68,14 @@
                             "id": "bwcqo9jghyo0",
                             "created": 1566129782192,
                             "text": "静态方法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwcr4f0lzug0",
+                            "created": 1566131047939,
+                            "text": "实例方法"
                         },
                         "children": []
                     }
