@@ -1,0 +1,13 @@
+{
+    "root": {
+        "data": {
+            "id": "bwec4hdznps0",
+            "created": 1566291856367,
+            "text": "Webpack"
+        },
+        "children": []
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

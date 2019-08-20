@@ -1,0 +1,13 @@
+{
+    "root": {
+        "data": {
+            "id": "bwec4p1ydgg0",
+            "created": 1566291873053,
+            "text": "React"
+        },
+        "children": []
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
