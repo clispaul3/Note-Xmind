@@ -5,7 +5,16 @@
             "created": 1566289050336,
             "text": "Vue"
         },
-        "children": []
+        "children": [
+            {
+                "data": {
+                    "id": "bweb8yerj4o0",
+                    "created": 1566289385765,
+                    "text": "Vuex"
+                },
+                "children": []
+            }
+        ]
     },
     "template": "default",
     "theme": "fresh-blue",
