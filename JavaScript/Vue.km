@@ -1,0 +1,13 @@
+{
+    "root": {
+        "data": {
+            "id": "bweb4obdjxc0",
+            "created": 1566289050336,
+            "text": "Vue"
+        },
+        "children": []
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
