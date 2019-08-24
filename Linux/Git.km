@@ -138,6 +138,24 @@
                             "note": "# git commit\n\n  - git commit \n    - 将暂存区的内容提交到当前仓库"
                         },
                         "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhoa6z0jy80",
+                            "created": 1566630837067,
+                            "text": "git fetch",
+                            "note": "# git fetch\n\n  - git fetch alias\n    - 将远程仓库所有分支的代码取回本地\n    \n  - git fetch alias brancname\n    - 将远程仓库指定分支的代码取回本地"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhocd9debs0",
+                            "created": 1566631007482,
+                            "text": "git merge",
+                            "note": "# git merge\n\n  - git merge branchname\n    - 将指定分支合并到当前分支"
+                        },
+                        "children": []
                     }
                 ]
             }
