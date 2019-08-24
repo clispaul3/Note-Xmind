@@ -156,6 +156,69 @@
                             "note": "# git merge\n\n  - git merge branchname\n    - 将指定分支合并到当前分支"
                         },
                         "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhoe5t9t5c0",
+                            "created": 1566631148000,
+                            "text": "git diff",
+                            "note": "# git diff\n\n  - git diff\n    - 比较工作区和暂存区的差异\n    \n  - git diff commitID\n    - 查看从commitID之后提交的内容\n    \n  - git diff branch1 branch2\n    - 比较两个分支之间的差异\n    \n  - git diff branch1...branch2\n    - 比较两个分支分开后各自的改动内容"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhoibdt2fc0",
+                            "created": 1566631473582,
+                            "text": "git log",
+                            "note": "# git log\n\n  - git log 查看提交记录"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhojtsu3qw0",
+                            "created": 1566631592037,
+                            "text": "git show",
+                            "note": "# git show\n\n  - git show commitID\n    - 查看某次提交的内容\n    "
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhon8udsu80",
+                            "created": 1566631859875,
+                            "text": "git pull",
+                            "note": "# git pull\n\n  - git pull\n    - 从远程仓库获取最新版本"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhoo3pd2kw0",
+                            "created": 1566631927051,
+                            "text": "git push",
+                            "note": "# git push\n\n  - git push alias localbranch:remotebranch\n    - 将本地分支推送到远程分支\n    \n  - git push alias:branchname\n    - 删除指定的远程仓库分支"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhoq9k8ajs0",
+                            "created": 1566632096530,
+                            "text": "git reset",
+                            "note": "# git reset\n\n  - git reset \n    - 重置暂存区"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhoqd341go0",
+                            "created": 1566632104202,
+                            "text": "git revert",
+                            "note": "# git revert\n\n  - git revert commitID\n    - 撤销某一次提交"
+                        },
+                        "children": []
                     }
                 ]
             }
