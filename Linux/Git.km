@@ -129,6 +129,15 @@
                             "note": "# git checkout\n\n  - git checkout name\n    - 切换到指定分支"
                         },
                         "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwho6niewps0",
+                            "created": 1566630559612,
+                            "text": "git commit",
+                            "note": "# git commit\n\n  - git commit \n    - 将暂存区的内容提交到当前仓库"
+                        },
+                        "children": []
                     }
                 ]
             }
