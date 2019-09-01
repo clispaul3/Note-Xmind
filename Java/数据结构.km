@@ -12,7 +12,7 @@
                     "id": "bwop8ee0atc0",
                     "created": 1567344437290,
                     "text": "定义",
-                    "note": "数据结构是计算机存储、组织数据的方式，指相互之间存在一种或多种特定关系的数据元素的集合\n"
+                    "note": "# 数据结构\n\n  - 数据结构是计算机存储、组织数据的方式，指相互之间存在一种或多种特定关系的数据元素的集合\n  \n  - 分为线性结构和非线性结构\n"
                 },
                 "children": []
             },
@@ -71,7 +71,7 @@
                     "id": "bwop9o3geow0",
                     "created": 1567344536783,
                     "text": "常见数据结构",
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -110,7 +110,8 @@
                         "data": {
                             "id": "bwopaimz1xk0",
                             "created": 1567344603267,
-                            "text": "链表"
+                            "text": "链表",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -154,6 +155,22 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bwopm22spa00",
+                                    "created": 1567345507588,
+                                    "text": "优点"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwopm5g3uy80",
+                                    "created": 1567345514924,
+                                    "text": "缺点"
+                                },
+                                "children": []
                             }
                         ]
                     },
@@ -182,6 +199,14 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "bwp1f3ynsu00",
+                    "created": 1567378816462,
+                    "text": "算法"
+                },
+                "children": []
             }
         ]
     },
