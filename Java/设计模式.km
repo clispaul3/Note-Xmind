@@ -18,7 +18,9 @@
                             "id": "bwyrurqplvs0",
                             "created": 1568367432154,
                             "text": "单一职责原则",
-                            "priority": 1
+                            "priority": 1,
+                            "expandState": "expand",
+                            "note": "## 单一职责\n\n  - 类的单一职责\n  - 方法的单一职责"
                         },
                         "children": [
                             {
@@ -46,6 +48,62 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "bwysj4n7teo0",
+                            "created": 1568369340981,
+                            "text": "接口隔离原则",
+                            "priority": 2,
+                            "note": "## 接口隔离原则\n\n  - 将接口进行拆分，避免在实现接口的时候，定义一些不必要的方法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwysj9xjwgw0",
+                            "created": 1568369352490,
+                            "text": "依赖倒转原则",
+                            "priority": 3,
+                            "note": "## 依赖倒转原则\n>依赖倒转原则的核心是面向接口编程\n\n  - 高层模块不应该依赖低层模块，二者都应该依赖其抽象\n  \n  - 抽象不应该依赖细节，细节应该依赖抽象\n  \n  - 细节是多变的，而抽象是相对稳定的，在java中，抽象指的是抽象类或接口，细节就是具体的实现类\n  \n  - 使用接口或抽象类的目的是制定好规范，而不设计任何具体的操作，展现细节的任务交给他们的实现类去完成"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwysjhku9nk0",
+                            "created": 1568369369135,
+                            "text": "里氏替换原则",
+                            "priority": 4
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwysjnzhoig0",
+                            "created": 1568369383082,
+                            "text": "开闭原则",
+                            "priority": 5
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwysjsfc3mo0",
+                            "created": 1568369392747,
+                            "text": "迪米特原则",
+                            "priority": 6
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwysk4rvl0o0",
+                            "created": 1568369419627,
+                            "text": "合成复用原则",
+                            "priority": 7
+                        },
+                        "children": []
                     }
                 ]
             }
