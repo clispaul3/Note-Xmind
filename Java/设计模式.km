@@ -1,0 +1,57 @@
+{
+    "root": {
+        "data": {
+            "id": "bwyrq9zg3f40",
+            "created": 1568367080043,
+            "text": "设计模式"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bwyrqlq2ucg0",
+                    "created": 1568367105598,
+                    "text": "设计原则"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwyrurqplvs0",
+                            "created": 1568367432154,
+                            "text": "单一职责原则",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwysbpcqw9s0",
+                                    "created": 1568368759147,
+                                    "text": "通过设计不同的类来体现"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwysc0b55ag0",
+                                    "created": 1568368782994,
+                                    "text": "通过设计不同的方法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwysc64tg800",
+                                    "created": 1568368795673,
+                                    "text": "通过传入不同的参数"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

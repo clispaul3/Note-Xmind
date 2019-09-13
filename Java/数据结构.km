@@ -71,7 +71,7 @@
                     "id": "bwop9o3geow0",
                     "created": 1567344536783,
                     "text": "常见数据结构",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -94,7 +94,8 @@
                         "data": {
                             "id": "bwop9ztq9rs0",
                             "created": 1567344562317,
-                            "text": "队列"
+                            "text": "队列",
+                            "note": "# 队列\n\n## 特点\n \n  - 遵循先进先出(FIFO)的原则\n  - 不支持随机取元素\n\n## 常用操作\n\n  - 获取列头\n  - 插入队列\n  - 判断队列是否已满\n  - 判断队列是否为空"
                         },
                         "children": []
                     },
