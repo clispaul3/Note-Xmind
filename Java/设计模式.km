@@ -134,9 +134,57 @@
                                 "data": {
                                     "id": "bx0ev5advc00",
                                     "created": 1568533907126,
-                                    "text": "单例模式"
+                                    "text": "单例模式",
+                                    "note": "## 单例模式 Singleton Pattern\n>整个系统中只存在一个类的实例，并且该类只提供一个取得对象实例的方法\n\n## 何种情况下使用？\n\n  - 重量级对象\n  - 全局共享对象\n  \n\n\n",
+                                    "priority": null
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bx0fx8bja740",
+                                            "created": 1568536891564,
+                                            "text": "饿汉式",
+                                            "note": "## 饿汉式\n\n### 方式一\n\n  - 用静态常量存放对象实例\n  - 提供静态方法用于获取对象实例\n  \n### 方式二\n\n  - 静态变量存放对象实例\n  - 静态代码块实例化对象实例\n  - 提供静态方法获取对象实例\n\n### 优点\n\n  - 类装载的时候就完成实例化，避免了线程同步的问题\n\n### 缺点\n\n  - 没有使用懒加载的方式，可能会造成内存浪费"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bx0gmphysd40",
+                                            "created": 1568538888063,
+                                            "text": "懒汉式",
+                                            "note": "## 懒汉式\n>需要的时候动态创建对象实例\n\n### 方式一\n>线程不安全\n\n  - 通过静态变量存储对象实例\n  - 提供静态方法用于获取对象实例\n  - 在获取对象实例时动态创建对象实例\n  - 实际开发中不使用该方式\n\n### 方式二\n>线程同步\n\n  - 通过静态变量存储对象实例\n  - 提供静态方法用于获取对象实例\n  - 在获取对象实例时动态创建对象实例\n  - 通过 synchronized 修饰获取对象实例的方法，使该方法变成一个同步方法\n  - 每次获取对象实例都要进行同步，效率太低\n  - 实际开发中不使用该方法\n\n### 方式三\n  - synchronized 修饰代码块\n"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bx0hap70jvc0",
+                                            "created": 1568540768140,
+                                            "text": "双重检查",
+                                            "note": "## 双重检查\n\n```java\npublic class Singleton {\n    private static volatile Singleton instance;\n    private Singleton(){}\n    public static Singleton getInstance(){\n        if(instance == null){\n            synchronized(Singleton.class){\n                if(instance == null){\n                    instance = new Singleton();\n                }\n            }\n        }\n        return instance;\n    }\n}\n\n```\n\n### 优点\n\n  - 线程安全\n  - 延迟加载\n  - 效率较高\n  \n  "
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bx0hdp6a03s0",
+                                                    "created": 1568541003188,
+                                                    "text": "volatile和synchronized的区别"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bx0lio0wj1s0",
+                                            "created": 1568552676947,
+                                            "text": "静态内部类",
+                                            "note": "## 静态内部类\n\n```java\npublic class Singleton {\n    private static class SingletonInstance{\n        private static final Singleton instance = new Singleton();\n    }\n    public static Singleton getInstance(){\n        return SingletonInstance.instance;\n    }\n}\n```\n\n### 静态内部类\n>JVM在装载类的时候是线程安全的\n\n  - 外部类在装载的时候，不会装载静态内部类\n  - 静态内部类是线程安全的\n  - 静态内部类在调用的时候只会装载一次\n  "
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
