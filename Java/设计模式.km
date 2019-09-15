@@ -3,14 +3,16 @@
         "data": {
             "id": "bwyrq9zg3f40",
             "created": 1568367080043,
-            "text": "设计模式"
+            "text": "设计模式",
+            "note": "## 设计模式\n\n  - 设计模式是某类问题的通用解决方案，代表了最佳的实践"
         },
         "children": [
             {
                 "data": {
                     "id": "bwyrqlq2ucg0",
                     "created": 1568367105598,
-                    "text": "设计原则"
+                    "text": "设计原则",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -65,7 +67,7 @@
                             "created": 1568369352490,
                             "text": "依赖倒转原则",
                             "priority": 3,
-                            "note": "## 依赖倒转原则\n>依赖倒转原则的核心是面向接口编程\n\n  - 高层模块不应该依赖低层模块，二者都应该依赖其抽象\n  \n  - 抽象不应该依赖细节，细节应该依赖抽象\n  \n  - 细节是多变的，而抽象是相对稳定的，在java中，抽象指的是抽象类或接口，细节就是具体的实现类\n  \n  - 使用接口或抽象类的目的是制定好规范，而不设计任何具体的操作，展现细节的任务交给他们的实现类去完成"
+                            "note": "## 依赖倒转原则\n>程序依赖抽象，而不依赖具体的实现\n>依赖倒转原则的核心是面向接口编程\n\n  - 高层模块不应该依赖低层模块，二者都应该依赖其抽象\n  \n  - 低层模块尽量都要有抽象类或接口，或者两者都有，程序稳定性更好\n  \n  - 抽象不应该依赖细节，细节应该依赖抽象\n  \n  - 细节是多变的，而抽象是相对稳定的，在java中，抽象指的是抽象类或接口，细节就是具体的实现类\n  \n  - 使用接口或抽象类的目的是制定好规范，而不设计任何具体的操作，展现细节的任务交给他们的实现类去完成\n  \n  - 在方法参数或构造器参数尽量传递抽象"
                         },
                         "children": []
                     },
@@ -74,7 +76,8 @@
                             "id": "bwysjhku9nk0",
                             "created": 1568369369135,
                             "text": "里氏替换原则",
-                            "priority": 4
+                            "priority": 4,
+                            "note": "## 里式替换原则（LSP）\n\n  - 任何基类可以出现的地方，子类一定可以出现\n  \n  - 继承必须确保超类所拥有的性质在子类中仍然成立\n  \n  - 当一个子类的实例应该能够替换任何其超类的实例时，它们之间才具有is-A关系\n  \n### 实际应用\n\n  - 子类不要重写父类的方法，会破坏继承体系\n  \n  - 在子类和父类的基础上再提取一个抽象，并继承提取出的抽象"
                         },
                         "children": []
                     },
@@ -83,7 +86,8 @@
                             "id": "bwysjnzhoig0",
                             "created": 1568369383082,
                             "text": "开闭原则",
-                            "priority": 5
+                            "priority": 5,
+                            "note": "## 开闭原则（OCP）\n\n  - 软件中的对象（类，模块，函数等等）应该对于扩展是开放的，但是对于修改是封闭的\n  \n  - 扩展类、扩展方法，尽量不修改原来的代码"
                         },
                         "children": []
                     },
@@ -92,7 +96,8 @@
                             "id": "bwysjsfc3mo0",
                             "created": 1568369392747,
                             "text": "迪米特原则",
-                            "priority": 6
+                            "priority": 6,
+                            "note": "## 迪米特法则\n\n  - 一个对象应该对其他对象保持最少的了解\n  \n  - 直接朋友：方法参数、成员变量、方法返回值\n  \n  - 成员变量不是直接的朋友，要尽量少用"
                         },
                         "children": []
                     },
@@ -101,15 +106,320 @@
                             "id": "bwysk4rvl0o0",
                             "created": 1568369419627,
                             "text": "合成复用原则",
-                            "priority": 7
+                            "priority": 7,
+                            "note": "## 合成复用原则\n\n  - 尽量使用合成/聚合的方式，而不是使用继承"
                         },
                         "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwzb8gp006o0",
+                    "created": 1568422106292,
+                    "text": "分类"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bx0eu9mwe4o0",
+                            "created": 1568533838226,
+                            "text": "创建型模式",
+                            "priority": 1,
+                            "expandState": "expand",
+                            "note": "## 创建型模式\n\n  - 创建型模式主要用于创建对象"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bx0ev5advc00",
+                                    "created": 1568533907126,
+                                    "text": "单例模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0evaz7hrs0",
+                                    "created": 1568533919511,
+                                    "text": "抽象工厂模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0evfa9y480",
+                                    "created": 1568533928887,
+                                    "text": "原型模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0evjel6140",
+                                    "created": 1568533937855,
+                                    "text": "建造者模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0evn793hs0",
+                                    "created": 1568533946119,
+                                    "text": "工厂模式"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bx0eud6oil40",
+                            "created": 1568533845952,
+                            "text": "结构型模式",
+                            "priority": 2,
+                            "expandState": "collapse",
+                            "note": "## 结构型模式\n\n  - 结构型模式主要用于处理类或对象的组合"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bx0evs3uesg0",
+                                    "created": 1568533956797,
+                                    "text": "适配器模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0evwhyr600",
+                                    "created": 1568533966358,
+                                    "text": "桥接模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0ew29en400",
+                                    "created": 1568533978901,
+                                    "text": "装饰器模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0ew9fdr7s0",
+                                    "created": 1568533994500,
+                                    "text": "组合模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0ewc5pank0",
+                                    "created": 1568534000445,
+                                    "text": "外观模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0ewfssqg00",
+                                    "created": 1568534008372,
+                                    "text": "享元模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0ewnp3zmw0",
+                                    "created": 1568534025563,
+                                    "text": "代理模式"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bx0euh6132g0",
+                            "created": 1568533854620,
+                            "text": "行为型模式",
+                            "priority": 3,
+                            "expandState": "collapse",
+                            "note": "## 行为型模式\n\n  - 行为型模式主要用于描述对类或对象怎样交互和怎样分配职责"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bx0ewr64qfc0",
+                                    "created": 1568534033122,
+                                    "text": "模板方法模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0ewwgdwzk0",
+                                    "created": 1568534044626,
+                                    "text": "命令模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0ewzf0va80",
+                                    "created": 1568534051074,
+                                    "text": "访问者模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0ex2ixy0o0",
+                                    "created": 1568534057842,
+                                    "text": "迭代器模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0ex76aniw0",
+                                    "created": 1568534067961,
+                                    "text": "观察者模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0exakajmg0",
+                                    "created": 1568534075337,
+                                    "text": "中介者模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0exh5d5ko0",
+                                    "created": 1568534089672,
+                                    "text": "备忘录模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0exkd0i6g0",
+                                    "created": 1568534096665,
+                                    "text": "解释器模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0exnz2rso0",
+                                    "created": 1568534104530,
+                                    "text": "状态模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0exrmav7c0",
+                                    "created": 1568534112464,
+                                    "text": "策略模式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bx0exvatik80",
+                                    "created": 1568534120477,
+                                    "text": "责任链模式"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwzba11odoo0",
+                    "created": 1568422228959,
+                    "text": "UML类图",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwzc2vtm8800",
+                            "created": 1568424490148,
+                            "text": "类与类的关系",
+                            "note": "## 类与类的关系\n\n### 区分组合与聚合？\n\n  - 生命周期\n  - 部分是否能脱离整体而独立存在",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bwzc3160jow0",
+                                    "created": 1568424501782,
+                                    "text": "依赖",
+                                    "note": "## 依赖\n\n  - 类中使用到了其他某各类\n  \n  - 作为类的成员属性\n  \n  - 作为方法的参数\n  \n  - 作为方法的返回值\n  \n  - 类的方法中使用到\n  "
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwzc34gawt40",
+                                    "created": 1568424508934,
+                                    "text": "泛化",
+                                    "note": "## 泛化\n\n  - 继承关系，是一种特殊的依赖关系"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwzc3nagqu00",
+                                    "created": 1568424549940,
+                                    "text": "实现",
+                                    "note": "## 实现\n\n  - 类实现接口"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwzc3berr800",
+                                    "created": 1568424524079,
+                                    "text": "组合",
+                                    "note": "## 组合\n\n  - 整体与部分不可分开"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwzc3fahdko0",
+                                    "created": 1568424532527,
+                                    "text": "聚合",
+                                    "note": "## 聚合\n\n  - 整体与部分的关系，整体与部分可以分开而独立存在"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bwzc3hl05qw0",
+                                    "created": 1568424537517,
+                                    "text": "关联",
+                                    "note": "## 关联关系\n\n  - 单向一对一\n  \n  - 双向一对一"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
         ]
     },
-    "template": "default",
+    "template": "right",
     "theme": "fresh-blue",
     "version": "1.4.43"
 }
