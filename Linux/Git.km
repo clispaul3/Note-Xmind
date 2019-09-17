@@ -5,9 +5,226 @@
             "created": 1566291422979,
             "text": "Git"
         },
-        "children": []
+        "children": [
+            {
+                "data": {
+                    "id": "bwhmn4kgtrs0",
+                    "created": 1566626208348,
+                    "text": "基本概念"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwhmn7ngwhs0",
+                            "created": 1566626215060,
+                            "text": "工作区",
+                            "note": "# 工作区\n\n  - 代码目录"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhmnak4d7c0",
+                            "created": 1566626221388,
+                            "text": "暂存区",
+                            "note": "# 暂存区\n\n  - git add 将代码提交到暂存区"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhmpazu1m80",
+                            "created": 1566626379066,
+                            "text": "本地仓库",
+                            "note": "# 本地仓库\n\n  - git commit 将代码提交到本地仓库\n  \n  - 本地仓库是连接远程仓库的枢纽，断网环境下可将代码先提交至本地仓库"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhmnd0h9bc0",
+                            "created": 1566626226731,
+                            "text": "远程仓库",
+                            "note": "# 远程仓库\n\n  - git push 将代码提交到远程仓库"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bwhmw1tp4ps0",
+                    "created": 1566626907654,
+                    "text": "常用命令"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bwhnc131vzs0",
+                            "created": 1566628159869,
+                            "text": "git config",
+                            "note": "# 查看配置信息\n\n  - git config -l\n  \n  - git config user.name=\"zyb\"\n    - 设置用户名\n    \n  - git config user.name\n    - 读取用户名\n  \n  - git config user.email"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhnhjcvuwg0",
+                            "created": 1566628591466,
+                            "text": "git init",
+                            "note": "# git init\n  \n  - 初始化git目录"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhnhlxw6hk0",
+                            "created": 1566628597090,
+                            "text": "git clone",
+                            "note": "# git clone\n\n  - git clone url\n    - 克隆远程仓库的地址\n    \n  - git clone url dir\n    - 将远程仓库的地址克隆到指定目录\n    \n  - git clone url -b branch\n    - 克隆远程仓库的指定分支"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhnhojateg0",
+                            "created": 1566628602738,
+                            "text": "git add",
+                            "note": "# git add\n\n  - 将修改的内容添加到暂存区\n  \n  - git add ."
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhnhrb6ehs0",
+                            "created": 1566628608777,
+                            "text": "git status",
+                            "note": "# git status\n\n  - git status\n    1. 如果工作目录有未添加到暂存区的文件，会显示未添加到暂存区的文件，红色显示\n    2. 如果工作目录没有未添加到暂存区的文件，则会显示暂存区的文件，绿色显示\n    3. git status -s 显示所有未添加到暂存区和暂存区的文件"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhnmfrhpqw0",
+                            "created": 1566628975463,
+                            "text": "git remote",
+                            "note": "# git remote\n\n  - git remote\n    - 列出已经存在远程仓库\n    \n  - git remote -v\n    - 列出远程仓库的详细信息\n    \n  - git remote add alias url\n    - 添加远程仓库\n    \n  - git remote rename old new\n    - 修改远程仓库的别名\n    \n  - git remote remove alias\n    - 删除远程仓库的别名\n    \n  - git remote set-url alias url\n    - 设置远程仓库的url地址"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhntigv6qg0",
+                            "created": 1566629529900,
+                            "text": "git branch",
+                            "note": "# git branch\n>分支名称忽略大小写\n\n  - git branch\n    - 列出本地仓库所有分支\n    \n  - git branch -v\n    - 列出本地仓库所有分支及最近的一次提交记录\n    \n  - git branch name\n    - 创建本地分支\n    \n  - git branch -m old new\n    - 修改分支名称\n    \n  - git branch -d name\n    - 删除本地分支"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhnu0yzucg0",
+                            "created": 1566629570179,
+                            "text": "git checkout",
+                            "note": "# git checkout\n\n  - git checkout name\n    - 切换到指定分支"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwho6niewps0",
+                            "created": 1566630559612,
+                            "text": "git commit",
+                            "note": "# git commit\n\n  - git commit \n    - 将暂存区的内容提交到当前仓库"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhoa6z0jy80",
+                            "created": 1566630837067,
+                            "text": "git fetch",
+                            "note": "# git fetch\n\n  - git fetch alias\n    - 将远程仓库所有分支的代码取回本地\n    \n  - git fetch alias brancname\n    - 将远程仓库指定分支的代码取回本地"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhocd9debs0",
+                            "created": 1566631007482,
+                            "text": "git merge",
+                            "note": "# git merge\n\n  - git merge branchname\n    - 将指定分支合并到当前分支"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhoe5t9t5c0",
+                            "created": 1566631148000,
+                            "text": "git diff",
+                            "note": "# git diff\n\n  - git diff\n    - 比较工作区和暂存区的差异\n    \n  - git diff commitID\n    - 查看从commitID之后提交的内容\n    \n  - git diff branch1 branch2\n    - 比较两个分支之间的差异\n    \n  - git diff branch1...branch2\n    - 比较两个分支分开后各自的改动内容"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhoibdt2fc0",
+                            "created": 1566631473582,
+                            "text": "git log",
+                            "note": "# git log\n\n  - git log 查看提交记录"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhojtsu3qw0",
+                            "created": 1566631592037,
+                            "text": "git show",
+                            "note": "# git show\n\n  - git show commitID\n    - 查看某次提交的内容\n    "
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhon8udsu80",
+                            "created": 1566631859875,
+                            "text": "git pull",
+                            "note": "# git pull\n\n  - git pull\n    - 从远程仓库获取最新版本"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhoo3pd2kw0",
+                            "created": 1566631927051,
+                            "text": "git push",
+                            "note": "# git push\n\n  - git push alias localbranch:remotebranch\n    - 将本地分支推送到远程分支\n    \n  - git push alias:branchname\n    - 删除指定的远程仓库分支"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhoq9k8ajs0",
+                            "created": 1566632096530,
+                            "text": "git reset",
+                            "note": "# git reset\n\n  - git reset \n    - 重置暂存区"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bwhoqd341go0",
+                            "created": 1566632104202,
+                            "text": "git revert",
+                            "note": "# git revert\n\n  - git revert commitID\n    - 撤销某一次提交"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
     },
-    "template": "default",
+    "template": "filetree",
     "theme": "fresh-blue",
     "version": "1.4.43"
 }
